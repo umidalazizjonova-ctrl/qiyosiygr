@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="100%" height="100%">
+  <defs>
+    <linearGradient id="buxSky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stopColor="#0369a1"/>
+      <stop offset="70%" stopColor="#38bdf8"/>
+      <stop offset="100%" stopColor="#fed7aa"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="450" fill="url(#buxSky)"/>
+  <rect y="360" width="800" height="90" fill="#b45309"/>
+  
+  <!-- Kalyan Minaret (Minorai Kalon) in Bukhara -->
+  <polygon points="370,360 430,360 415,80 385,80" fill="#d97706"/>
+  <!-- Top rotunda gallery -->
+  <rect x="375" y="65" width="50" height="18" fill="#92400e"/>
+  <!-- Conical dome -->
+  <polygon points="380,65 420,65 400,30" fill="#0d9488"/>
+  
+  <!-- Kalyan Mosque / Ark Silhouette -->
+  <rect x="220" y="240" width="120" height="120" fill="#78350f"/>
+  <path d="M 250 240 Q 280 180 310 240 Z" fill="#06b6d4"/>
+  <rect x="460" y="220" width="160" height="140" fill="#78350f"/>
+  <path d="M 500 220 Q 540 160 580 220 Z" fill="#06b6d4"/>
+</svg>

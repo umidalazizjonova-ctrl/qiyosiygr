@@ -1,0 +1,48 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-sans: 'Nunito', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  }
+  body {
+    font-family: var(--font-sans);
+  }
+}
+
+/* Syntactic highlighting classes with both color and distinct school grammatical underlining */
+.syntax-ega {
+  @apply text-sky-700 dark:text-sky-300 font-bold border-b-2 border-sky-500 px-1 rounded-sm bg-sky-50 dark:bg-sky-950/40 inline-block;
+}
+
+.syntax-kesim {
+  @apply text-rose-700 dark:text-rose-300 font-bold border-b-4 border-double border-rose-500 px-1 rounded-sm bg-rose-50 dark:bg-rose-950/40 inline-block;
+}
+
+.syntax-aniqlovchi {
+  @apply text-amber-700 dark:text-amber-300 font-bold underline decoration-wavy decoration-amber-500 px-1 rounded-sm bg-amber-50 dark:bg-amber-950/40 inline-block;
+}
+
+.syntax-toldiruvchi {
+  @apply text-emerald-700 dark:text-emerald-300 font-bold border-b-2 border-dashed border-emerald-500 px-1 rounded-sm bg-emerald-50 dark:bg-emerald-950/40 inline-block;
+}
+
+.syntax-hol {
+  @apply text-purple-700 dark:text-purple-300 font-bold border-b-2 border-dotted border-purple-500 px-1 rounded-sm bg-purple-50 dark:bg-purple-950/40 inline-block;
+}
+
+/* Print styles for Teacher Worksheet export */
+@media print {
+  header, nav, footer, .no-print {
+    display: none !important;
+  }
+  body {
+    background: white !important;
+    color: black !important;
+  }
+  .print-only {
+    display: block !important;
+  }
+  .page-break {
+    page-break-after: always;
+  }
+}

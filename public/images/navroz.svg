@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="100%" height="100%">
+  <defs>
+    <radialGradient id="sunGrad" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stopColor="#fef08a"/>
+      <stop offset="50%" stopColor="#f59e0b"/>
+      <stop offset="100%" stopColor="#d97706"/>
+    </radialGradient>
+  </defs>
+  <rect width="800" height="450" fill="#064e3b"/>
+  
+  <!-- Spring Sun -->
+  <circle cx="400" cy="180" r="85" fill="url(#sunGrad)"/>
+  
+  <!-- Traditional Sprouted Wheat (Maysa / Navro'z Sabzasi) -->
+  <rect y="360" width="800" height="90" fill="#14532d"/>
+  
+  <!-- Pot of Sumalak -->
+  <ellipse cx="400" cy="340" rx="140" ry="40" fill="#78350f" stroke="#fef08a" strokeWidth="4"/>
+  <ellipse cx="400" cy="330" rx="130" ry="32" fill="#451a03"/>
+  <circle cx="400" cy="330" r="15" fill="#78350f"/>
+  
+  <!-- Sprouted green blades -->
+  <path d="M 280 320 Q 270 240 290 190 Q 300 240 290 320 Z" fill="#22c55e"/>
+  <path d="M 330 315 Q 320 220 345 170 Q 360 230 340 315 Z" fill="#4ade80"/>
+  <path d="M 470 315 Q 460 220 485 170 Q 500 230 480 315 Z" fill="#4ade80"/>
+  <path d="M 520 320 Q 510 240 530 190 Q 540 240 530 320 Z" fill="#22c55e"/>
+</svg>

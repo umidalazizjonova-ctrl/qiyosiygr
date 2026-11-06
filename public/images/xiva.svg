@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="100%" height="100%">
+  <defs>
+    <linearGradient id="xivSky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stopColor="#0f766e"/>
+      <stop offset="60%" stopColor="#2dd4bf"/>
+      <stop offset="100%" stopColor="#ffedd5"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="450" fill="url(#xivSky)"/>
+  <rect y="350" width="800" height="100" fill="#78350f"/>
+  
+  <!-- Kalta Minor (The Short Minaret with turquoise tiles) -->
+  <polygon points="360,350 440,350 430,160 370,160" fill="#0d9488"/>
+  <!-- Turquoise bands -->
+  <rect x="368" y="190" width="64" height="20" fill="#06b6d4"/>
+  <rect x="365" y="240" width="70" height="20" fill="#38bdf8"/>
+  <rect x="362" y="290" width="76" height="20" fill="#0284c7"/>
+  
+  <!-- Clay Fortress Walls of Ichan Qal'a -->
+  <rect x="140" y="280" width="200" height="70" fill="#b45309"/>
+  <rect x="460" y="270" width="200" height="80" fill="#b45309"/>
+  <!-- Battlements -->
+  <polygon points="140,280 160,260 180,280 200,260 220,280" fill="#b45309"/>
+  <polygon points="460,270 480,250 500,270 520,250 540,270" fill="#b45309"/>
+</svg>

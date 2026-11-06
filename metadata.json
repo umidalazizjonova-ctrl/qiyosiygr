@@ -1,0 +1,6 @@
+{
+  "name": "Xolida ustoz bilan o‘zbek tili",
+  "description": "Rus tilida o‘qiydigan 5-9-sinf o‘quvchilari uchun o‘zbek va rus tillari qiyosiy sintaksisi bo‘yicha interaktiv ta’lim platformasi",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
